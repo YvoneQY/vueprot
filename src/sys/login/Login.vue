@@ -11,7 +11,7 @@ const onSubmit=()=>{
 <template>
     <div class="login_ct">
         <div class="login_form">
-            <h5>XXX登录系统</h5>
+            <h5>登录系统</h5>
             <el-form :model="form" label-width="120px">
                 <el-form-item label="用户名">
                     <el-input v-model="form.username" />
